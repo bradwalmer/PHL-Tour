@@ -4,7 +4,7 @@
      in Cesium ion that is limited to your site's address and read-only assets, and do not
      post this file publicly with an unrestricted token in it. */
 const CESIUM_CONFIG = {
-  ionToken: "",          // e.g. "eyJhbGciOi..."  (from https://ion.cesium.com/tokens)
+  ionToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IkxtNEZ3TTE5VHZsRUs1ZEwiLCJqdGkiOiJkNDQ0OGVjMy1jZjQwLTQwYzItYTI0Yy0yMWM3MGMyMDQ5YzYiLCJpZCI6NTA1NzI4LCJzdWIiOiJicmFkd2FsbWVyIiwiaXNzIjoiaHR0cHM6Ly9hcGkuY2VzaXVtLmNvbSIsImF1ZCI6IlBoaWxhZGVscGhpYSBUb3VyIiwiaWF0IjoxNzkxMzg3NTQyfQ.OS3Td-rUbYGFh6BmJqZYALHEZog0x783adq0LDkVotw",          // e.g. "eyJhbGciOi..."  (from https://ion.cesium.com/tokens)
   useWorldImagery: true, // true = draw Cesium satellite imagery over the grid (needs a token)
   useGoogle3D: true      // true = load Google Photorealistic 3D Tiles through Cesium ion (needs a token)
 };
